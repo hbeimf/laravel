@@ -14,10 +14,6 @@ composer create-project laravel/laravel manager.demo.com --prefer-dist
 install composer ===========================
 cp composer.phar /usr/local/bin/composer
 sudo chmod 777 /usr/local/bin/composer
-```
-
-```
-create project
 composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ```
 
