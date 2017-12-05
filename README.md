@@ -33,3 +33,14 @@ chmod -R 777 ./bootstrap/
 php artisan key:generate
 ```
 
+
+```
+创建控制器：
+
+php artisan make:controller IndexController
+php artisan make:controller IndexController
+
+
+
+```
+
