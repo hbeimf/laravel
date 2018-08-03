@@ -8,6 +8,7 @@ class LoginController extends CommonController
 {
     //
     public function login() {
-        return view('admin/login');
+    	echo 'test';exit;
+        // return view('admin/login');
     }
 }
