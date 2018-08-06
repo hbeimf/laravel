@@ -1,7 +1,7 @@
 <?php
 // https://www.jianshu.com/p/2988ba405b3b?from=timeline&isappinstalled=0
 
-// http://la.demo.com/api/register/?name=test1&email=123456@qq.com&password=123456&c_password=123456
+
 namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
@@ -40,7 +40,7 @@ class UserController extends Controller
 
     /**
      * Register api
-     *
+     * http://la.demo.com/api/register/?name=test1&email=123456@qq.com&password=123456&c_password=123456
      * @return \Illuminate\Http\Response
      */
     public function register(Request $request)
