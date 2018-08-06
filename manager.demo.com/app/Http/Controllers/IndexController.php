@@ -14,8 +14,9 @@ class IndexController extends Controller
         // $pdo = DB::connection()->getPdo();
         // dd($pdo);
 
-        $t = \App\Teacher::all()->toArray();
-        print_r($t);
+    	var_dump("index");exit;
+        // $t = \App\Teacher::all()->toArray();
+        // print_r($t);
 
 
     }
