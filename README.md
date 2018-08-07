@@ -47,3 +47,19 @@ php artisan make:controller IndexController
 
 
 https://www.jianshu.com/p/2988ba405b3b?from=timeline&isappinstalled=0
+
+
+
+composer:
+
+https://blog.csdn.net/qq_36110571/article/details/80864665
+
+https://packagist.org/packages/apache/log4php
+https://packagist.org/packages/apache/log4php
+
+composer require apache/log4php
+http://logging.apache.org/log4php/
+
+
+
+

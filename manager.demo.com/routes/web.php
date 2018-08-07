@@ -21,7 +21,7 @@ Route::get('/test', 'IndexController@index');
 Route::get('/admin/login', 'Admin\LoginController@login');
 Route::get('/admin/index', 'Admin\IndexController@index');
 
-
+Route::get('/admin/log', 'Admin\LogController@index');
 
 
 

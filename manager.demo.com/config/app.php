@@ -229,4 +229,48 @@ return [
 
     ],
 
+    // 日志输出到文件配置
+    'log_config_file' => [
+            'appenders' => [
+                        'default' => [
+                                    'class' => 'LoggerAppenderDailyFile',//$two:Appenders（输出源）
+                                    'layout' => [
+                                            'class' => 'LoggerLayoutXml',//$three:Layouts（布局）, //'LoggerLayoutPattern','LoggerLayoutSimple','LoggerLayoutSerialized','LoggerLayoutXml'
+                                    ],
+                                    'params' => [
+                                        'datePattern' => 'Y-m-d',    //去掉该参数,则文件名称时间为：201600412
+                                        // 'file' => 'file-%s.log',     //文件名称
+                                        'file' => $_SERVER['DOCUMENT_ROOT']."/../logs/file-%s.log",
+                                        'append'=>true  ,             //没填默认true输出内容将追加,，若为false,文件内容将被覆盖。
+                                    ],
+                        ]
+             ],
+            'rootLogger' => [
+                            'appenders' => ['default']
+            ]
+    ],
+
+    // 日志输出到文件配置
+    'log_config_db' => [
+            'appenders' => [
+                        'default' => [
+                                    'class' => 'LoggerAppenderPDO',//$two:Appenders（输出源）
+                                    'layout' => [
+                                            'class' => 'LoggerLayoutXml',//$three:Layouts（布局）, //'LoggerLayoutPattern','LoggerLayoutSimple','LoggerLayoutSerialized','LoggerLayoutXml'
+                                    ],
+                                    'params' => [
+                                            'dsn' => 'mysql:host=127.0.0.1;dbname=laravel',
+                                            'user' => 'root',
+                                            'password' => '123456',
+                                            'table' => 'log',
+                                            'insertSql' =>  "INSERT INTO log (timestamp, logger, level, message, thread, file, line) VALUES (?,?,?,?,?,?,?)",
+                                            'insertPattern' => "%d,%c,%p,%m, %t,%F,%L",
+                                    ],
+                        ]
+             ],
+            'rootLogger' => [
+                            'appenders' => ['default']
+            ]
+    ],
+    
 ];

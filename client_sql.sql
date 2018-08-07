@@ -49,7 +49,19 @@ CREATE TABLE `c_money` (
 
 
 
+INSERT INTO log (timestamp, logger, level, message, thread, file, line) VALUES (?,?,?,?,?,?,?)
 
+CREATE TABLE `log` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `timestamp` varchar(50) NOT NULL DEFAULT '',
+  `logger` text NOT NULL,
+  `level` varchar(20) NOT NULL DEFAULT '',
+  `message` text NOT NULL,
+  `thread` varchar(200) NOT NULL DEFAULT '',
+  `file` varchar(200) NOT NULL DEFAULT '',
+  `line` int(11) NOT NULL DEFAULT '0' ,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='日志';
 
 
 
