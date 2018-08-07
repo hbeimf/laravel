@@ -69,5 +69,6 @@ laravel acl:
 ```
 https://packagist.org/packages/kodeine/laravel-acl
 
+https://packagist.org/packages/jeremykenedy/laravel-roles
 
 ```
