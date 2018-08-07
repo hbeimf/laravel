@@ -76,5 +76,15 @@ class UserController extends Controller
         $user = Auth::user();
         return response()->json(['success' => $user], $this->successStatus);
     }
+
+ public function logout()
+    {
+        // $user = Auth::logout();
+        // $user = Auth::user();
+        // $token =  $user->createToken('MyApp')->accessToken;
+        
+        return response()->json(['success' => []], $this->successStatus);
+    }
+       
 }
 

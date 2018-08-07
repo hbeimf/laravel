@@ -8,6 +8,8 @@ class Test {
 		// $this->reg();
 		$this->login();
 		$this->detail();
+		$this->logout();
+		$this->detail();
 	}
 
 	function reg(){
@@ -42,6 +44,22 @@ class Test {
 	// Authorization:Bearer+空格+access_token
 	 function detail() {
 	 	$url = 'http://la.demo.com/api/details/';
+
+	 	$post_data['email']      = '';
+		$post_data['password']    = '';
+
+	 	$header = [];
+		$header[] = "Accept: application/json"; 
+		$header[] = "Authorization: Bearer ".$this->_token; 
+
+		// print_r($header);
+
+	 	$res = $this->request_post_header($url, $post_data, $header);     
+	 	var_dump($res);  
+	 }
+
+	 function logout() {
+	 	$url = 'http://la.demo.com/api/logout/';
 
 	 	$post_data['email']      = '';
 		$post_data['password']    = '';

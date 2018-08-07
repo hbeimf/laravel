@@ -28,5 +28,5 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $table = 'c_users';
+    protected $table = 'users';
 }
