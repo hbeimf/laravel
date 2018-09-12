@@ -17,7 +17,7 @@ use Dingo\Api\Routing\Router;
 $api = app(Router::class);
 $api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Admin\\V1'], function (Router $api) {
 
-//    $api->group(['middleware' => 'auth:api'], function (Router $api){
+	// $api->group(['middleware' => 'auth:api'], function (Router $api) {
 
 	$api->get('test', 'TestController@listTest');
 	$api->get('test/{id}', 'TestController@getTest');
@@ -25,7 +25,7 @@ $api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Admin\\V1'], functi
 	$api->put('test/{id}', 'TestController@updateTest');
 	$api->delete('test/{id}', 'TestController@destroy');
 
-//    });
+	// });
 
 });
 
