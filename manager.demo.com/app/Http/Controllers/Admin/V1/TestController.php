@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Admin\V1;
 use App\Http\Controllers\Admin\V1\Controller as BaseController;
 use App\Repository\TestRepository;
 use App\Transformer\TestTransformer;
-use App\Validator\TestValidator;
 // use Illuminate\Database\Eloquent\Model;
+use App\Validator\TestValidator;
 use Illuminate\Http\Request;
 
 class TestController extends BaseController {
@@ -22,6 +22,7 @@ class TestController extends BaseController {
 	}
 
 	public function listTest() {
+		// event(new App\Events\QueryLog());
 		return $this->response()->paginator($this->repo->paginate(), new TestTransformer());
 
 	}
