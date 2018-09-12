@@ -15,7 +15,10 @@ class EventServiceProvider extends ServiceProvider {
 		'App\Events\Event' => [
 			'App\Listeners\EventListener',
 		],
-		'App\Events\QueryLog' => [
+		// 'App\Events\QueryLog' => [
+		// 	'App\Listeners\AddQueryLogToResponse',
+		// ],
+		'Dingo\Api\Event\AddQueryLogToResponse' => [
 			'App\Listeners\AddQueryLogToResponse',
 		],
 	];

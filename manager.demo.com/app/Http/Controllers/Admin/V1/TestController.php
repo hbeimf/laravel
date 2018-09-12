@@ -22,7 +22,7 @@ class TestController extends BaseController {
 	}
 
 	public function listTest() {
-		// event(new App\Events\QueryLog());
+		// event(new \App\Events\QueryLog());
 		return $this->response()->paginator($this->repo->paginate(), new TestTransformer());
 
 	}
