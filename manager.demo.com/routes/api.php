@@ -11,7 +11,25 @@
 |
  */
 
-Route::get('test', 'Admin\LogController@test');
+//Dingo API
+use Dingo\Api\Routing\Router;
+
+$api = app(Router::class);
+$api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Admin\\V1'], function (Router $api) {
+
+//    $api->group(['middleware' => 'auth:api'], function (Router $api){
+
+	$api->get('test', 'TestController@listTest');
+	$api->get('test/{id}', 'TestController@getTest');
+	$api->post('test', 'TestController@createTest');
+	$api->put('test/{id}', 'TestController@updateTest');
+	$api->delete('test/{id}', 'TestController@destroy');
+
+//    });
+
+});
+
+// Route::get('test', 'Admin\LogController@test');
 
 Route::post('login', 'Api\UserController@login');
 Route::post('register', 'Api\UserController@register');

@@ -20,3 +20,179 @@
 <log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
 </log4php:event>
 </log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9015" timestamp="1536722405258">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9015" timestamp="1536722405259">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9015" timestamp="1536722405259">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9015" timestamp="1536722405259">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9015" timestamp="1536722405259">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9016" timestamp="1536722405878">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9016" timestamp="1536722405878">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9016" timestamp="1536722405878">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9016" timestamp="1536722405878">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9016" timestamp="1536722405878">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9015" timestamp="1536722406012">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9015" timestamp="1536722406012">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9015" timestamp="1536722406012">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9015" timestamp="1536722406012">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9015" timestamp="1536722406012">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9016" timestamp="1536722406129">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9016" timestamp="1536722406129">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9016" timestamp="1536722406129">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9016" timestamp="1536722406129">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9016" timestamp="1536722406129">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9015" timestamp="1536722406267">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9015" timestamp="1536722406268">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9015" timestamp="1536722406268">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9015" timestamp="1536722406268">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9015" timestamp="1536722406268">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9016" timestamp="1536722406871">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9016" timestamp="1536722406871">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9016" timestamp="1536722406871">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9016" timestamp="1536722406871">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9016" timestamp="1536722406871">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9015" timestamp="1536722407035">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9015" timestamp="1536722407035">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9015" timestamp="1536722407035">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9015" timestamp="1536722407036">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9015" timestamp="1536722407036">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
+<log4php:eventSet xmlns:log4php="http://logging.apache.org/log4php/" version="0.3" includesLocationInfo="true">
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="DEBUG" thread="9016" timestamp="1536722407162">
+<log4php:message><![CDATA[My second message.222]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="41" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="INFO" thread="9016" timestamp="1536722407162">
+<log4php:message><![CDATA[My third message.33]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="42" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="WARN" thread="9016" timestamp="1536722407162">
+<log4php:message><![CDATA[My fourth message444444]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="43" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="ERROR" thread="9016" timestamp="1536722407162">
+<log4php:message><![CDATA[My fifth message5555]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="44" method="log_file_v2" />
+</log4php:event>
+<log4php:event logger="App\Http\Controllers\Admin\CommonController" level="FATAL" thread="9016" timestamp="1536722407162">
+<log4php:message><![CDATA[My sixth message66]]></log4php:message>
+<log4php:locationInfo class="App\Http\Controllers\Admin\LogController" file="/web/laravel/manager.demo.com/app/Http/Controllers/Admin/LogController.php" line="45" method="log_file_v2" />
+</log4php:event>
+</log4php:eventSet>
