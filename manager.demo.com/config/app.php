@@ -179,6 +179,8 @@ return [
 		Laravel\Passport\PassportServiceProvider::class,
 
 		Dingo\Api\Provider\LaravelServiceProvider::class,
+		Prettus\Repository\Providers\RepositoryServiceProvider::class,
+		App\Providers\ExceptionsServiceProvider::class,
 
 	],
 
