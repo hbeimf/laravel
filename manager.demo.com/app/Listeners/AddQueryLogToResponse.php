@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\DB;
 
 class AddQueryLogToResponse {
 	public function handle(ResponseWasMorphed $event) {
-		// if ( is_array($event->content) && !isset($event->content['meta']['debug']) && env('APP_DEBUG')) {
+		// var_dump(DB::getQueryLog());exit;
+		// if (is_array($event->content) && !isset($event->content['meta']['debug']) && env('APP_DEBUG')) {
 		$queries = $this->getQueryLog();
 		$event->content['meta']['DBQuery'] = $queries;
 
