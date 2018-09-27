@@ -32,6 +32,7 @@
 $api = app('Dingo\Api\Routing\Router');
 // $api->version('v1', function ($api) {
 // https://laravel-china.org/articles/5804/laravel54jwtdingoapi-building-restfulapi
+// https://laravel-china.org/articles/5548/brief-summary-of-laravel-passport-api-certification
 $api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Api'], function ($api) {
 	$api->post('login', 'UserController@login');
 	// $api->post('register', 'App\Http\Api\Auth\RegisterController@register');
