@@ -22,9 +22,22 @@
 // 	Route::get('V1/test/passport', 'UserController@passport');
 // });
 
-Route::post('login', 'api\UserController@login');
-Route::post('register', 'api\UserController@register');
+// Route::post('login', 'api\UserController@login');
+// Route::post('register', 'api\UserController@register');
 
-Route::group(['middleware' => 'auth:api'], function () {
-	Route::post('get-details', 'API\PassportController@getDetails');
+// Route::group(['middleware' => 'auth:api'], function () {
+// 	Route::post('get-details', 'API\PassportController@getDetails');
+// });
+
+$api = app('Dingo\Api\Routing\Router');
+// $api->version('v1', function ($api) {
+// https://laravel-china.org/articles/5804/laravel54jwtdingoapi-building-restfulapi
+$api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Api'], function ($api) {
+	$api->post('login', 'UserController@login');
+	// $api->post('register', 'App\Http\Api\Auth\RegisterController@register');
+	// $api->group(['middleware' => 'api.auth'], function ($api) {
+	// 	$api->get('logout', 'App\Http\Api\Auth\LoginController@logout');
+	// 	$api->resource('user', 'App\Http\Api\UsersController');
+	// });
+	// $api->get('refresh', 'App\Http\Api\UsersController@refresh');
 });
