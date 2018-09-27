@@ -162,6 +162,8 @@ return [
 
 		// passport ============================
 		Laravel\Passport\PassportServiceProvider::class,
+		//dingo ===============================
+		Dingo\Api\Provider\LaravelServiceProvider::class,
 
 	],
 
