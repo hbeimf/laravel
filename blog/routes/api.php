@@ -35,6 +35,7 @@ $api = app('Dingo\Api\Routing\Router');
 // https://laravel-china.org/articles/5548/brief-summary-of-laravel-passport-api-certification
 $api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Api'], function ($api) {
 	$api->post('login', 'UserController@login');
+	$api->post('register', 'UserController@register');
 	// $api->post('register', 'App\Http\Api\Auth\RegisterController@register');
 	$api->group(['middleware' => 'auth:api'], function ($api) {
 		// $api->get('logout', 'App\Http\Api\Auth\LoginController@logout');
