@@ -36,9 +36,10 @@ $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', ['namespace' => 'App\\Http\\Controllers\\Api'], function ($api) {
 	$api->post('login', 'UserController@login');
 	// $api->post('register', 'App\Http\Api\Auth\RegisterController@register');
-	// $api->group(['middleware' => 'api.auth'], function ($api) {
-	// 	$api->get('logout', 'App\Http\Api\Auth\LoginController@logout');
-	// 	$api->resource('user', 'App\Http\Api\UsersController');
-	// });
+	$api->group(['middleware' => 'auth:api'], function ($api) {
+		// $api->get('logout', 'App\Http\Api\Auth\LoginController@logout');
+		// $api->resource('user', 'App\Http\Api\UsersController');
+		$api->get('/test', 'UserController@getDetails');
+	});
 	// $api->get('refresh', 'App\Http\Api\UsersController@refresh');
 });
