@@ -1,0 +1,37 @@
+https://blog.csdn.net/qiqiaiairen/article/details/51233703
+
+
+
+
+
+进入wampserver安装目录的www文件夹：
+cd wamp\www
+在目录下，执行如下composer命令：
+composer create-project laravel/laravel laravelapp --prefer-dist
+即可在该目录中安装一个目录名为laravelapp的新的laravel引用。
+composer create-project laravel/laravel=5.1.11 laravel --prefer-dist安装指定版本的laravel
+
+进入应用目录执行php artisan key:generate命令重新生成应用APP_KEY
+php artisan key:generate
+1. 修改.env文件
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=pingce
+DB_PASSWORD=secret2. 修改config/database.php文件，将env()的解析函数去掉。
+'mysql' => [
+            'driver' => 'mysql',
+            'host' => 'localhost',
+            'port' => env('DB_PORT', '3306'),
+            'database' => 'pingce',,
+            'username' => 'homestead',
+            'password' => 'secret',
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => '',
+            'strict' => false,
+            'engine' => null,
+        ],3. 修改config\app.php文件中的key
+'key' => '61737xQK7KZLJqzEbK86lwvcKpRGxZ4S',
+'timezone' => 'Asia/Shanghai',4. 修改config\filesystem.php
+'root'   => public_path('content'),
+
